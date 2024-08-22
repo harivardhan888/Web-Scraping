@@ -56,14 +56,13 @@ This project involves web scraping book information from a website and storing t
 2. **Data Processing**: Pandas is used to structure the data into a DataFrame.
 3. **Data Storage**:
     - **Excel and CSV**: The DataFrame is written to `books.xlsx` and `books.csv` using Pandas.
-    - **MySQL**: The DataFrame is inserted into the MySQL `books` table using SQLAlchemy.
+    - **MySQL**: The DataFrame is inserted into the MySQL `books` table.
 
 ## **Dependencies**
 - **beautifulsoup4**
 - **pandas**
 - **mysql-connector-python**
 - **openpyxl**
-- **sqlalchemy**
 
 ## **Contributing**
 If you would like to contribute to this project, please fork the repository and submit a pull request. For any issues, please open an issue on GitHub.
