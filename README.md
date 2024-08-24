@@ -12,30 +12,10 @@ This project involves web scraping book information from a website and storing t
 - **CSV**: For writing data to CSV files.
 
 ## **Project Structure**
-- **main.py**: The main script for scraping the data and saving it to different formats.
-- **requirements.txt**: List of dependencies required for the project.
-- **config.py**: Configuration file for database connection details.
+- **code.py**: The main script for scraping the data and saving it to different formats.
+- **my.properties**: Configuration file for database connection details.
 - **README.md**: Documentation of the project.
 
-## **Setup Instructions**
-1. **Clone the Repository**
-    ```sh
-    git clone https://github.com/harivardhan888/Web-scraping.git
-    cd Web-scraping
-    ```
-
-2. **Install Dependencies**
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-3. **Configure Database**
-   - Update the `config.py` file with your MySQL database connection details.
-
-4. **Run the Script**
-    ```sh
-    python main.py
-    ```
 
 ## **Data Storage Formats**
 
@@ -65,7 +45,4 @@ This project involves web scraping book information from a website and storing t
 - **openpyxl**
 
 ## **Contributing**
-If you would like to contribute to this project, please fork the repository and submit a pull request. For any issues, please open an issue on GitHub.
-
-## **License**
-This project is licensed under the MIT License. See the LICENSE file for details.
+If you would like to contribute to this project, please fork the repository and submit a pull request. For any issues, please open an issue on GitHub
